@@ -1,0 +1,14 @@
+<p>Vänligen skicka mig ett bra meddelande!</p>
+
+
+<!-- man måste skriva [formcontrol] på en input för att koppla den till FormControl i klassen-->
+<input type="text" [formControl]="name" />
+<input type="text" [formControl]="message" />
+
+<!-- när mantrycker på den här knappen så använder man sendMessage() från klassen -->
+<button type="button" (click)="sendMessage()">Skicka</button>
+
+<a routerLink="thanks">To thanks</a>
+<a routerLink="greeting">To greeting</a>
+
+<router-outlet></router-outlet>

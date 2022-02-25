@@ -1,0 +1,18 @@
+<h1>Frequently asked stuff</h1>
+
+<!-- går igenom alla objekt i arrayen i klassen -->
+<ng-container class="list" *ngFor="let qa of qas"> <!-- testade alla möjliga sorter men ng-container var den som funkade-->
+    <div class="faq-item">
+        <span class="question">
+
+            <!-- här kan man lägga till en property från varje objekt i arrayen -->
+            <strong>{{qa.question}}</strong>   <!--det kommer skickas till faq-item-->
+        </span>
+
+    
+        <span class="answer">
+        <!-- här kan man lägga till en property från varje objekt i arrayen -->
+            {{qa.answer}}
+        </span>
+    </div>
+</ng-container>

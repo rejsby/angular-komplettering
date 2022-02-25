@@ -1,0 +1,15 @@
+
+.list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.618rem;
+}
+.faq-item {
+    background: white;
+    padding: 0.618rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.318rem;
+    border: 1px solid lightgray;
+    margin-bottom: 0.618rem;
+}
